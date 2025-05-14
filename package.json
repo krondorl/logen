@@ -1,0 +1,30 @@
+{
+  "name": "logen",
+  "version": "0.1.0",
+  "description": "Lottery generator",
+  "scripts": {
+    "copy-types-win": "powershell -ExecutionPolicy Bypass -File scripts/copy-types.ps1",
+    "copy-types-mac-linux": "bash scripts/copy-types.sh",
+    "install-client": "cd client && npm install",
+    "install-server": "cd server && npm install",
+    "install-all": "npm install && npm run install-client && npm run install-server",
+    "build:client": "cd client && npm run build",
+    "build:server": "cd server && npm run build",
+    "build": "npm run build:client && npm run build:server",
+    "start:client": "cd client && npm run dev",
+    "start:server": "cd server && npm run start",
+    "start": "concurrently \"npm run start:client\" \"npm run start:server\""
+  },
+  "keywords": [
+    "full-stack",
+    "react",
+    "node.js",
+    "websocket"
+  ],
+  "author": "Adam Burucs",
+  "license": "MIT",
+  "type": "module",
+  "devDependencies": {
+    "concurrently": "^9.1.2"
+  }
+}

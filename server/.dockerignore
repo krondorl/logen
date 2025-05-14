@@ -1,0 +1,45 @@
+node_modules
+dist
+build
+coverage
+.nyc_output
+.vscode
+.idea
+.git
+.env
+.env.*
+Dockerfile
+Dockerfile.*
+docker-compose.yml
+docker-compose.*.yml
+npm-debug.log
+yarn-error.log
+package-lock.json
+yarn.lock
+
+# Ignore build output directories from other tools
+out
+tmp
+
+# Ignore system files
+.DS_Store
+Thumbs.db
+
+# Ignore log files
+*.log
+
+# Optional: Ignore test files if you're not including them in the image
+test/
+__tests__/
+*.test.ts
+*.spec.ts
+
+# Optional: Ignore documentation files
+docs/
+*.md
+
+# Optional: Ignore editor backups and temporary files
+*~
+\#*\#
+.*.swp
+.cache

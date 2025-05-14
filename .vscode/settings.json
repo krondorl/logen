@@ -1,0 +1,30 @@
+{
+  "editor.codeActionsOnSave": {
+    "source.fixAll": "explicit"
+  },
+  "eslint.format.enable": true,
+  "stylelint.enable": true,
+  "css.validate": true,
+  "scss.validate": true,
+  "[javascript,typescript]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[typescriptreact]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[scss,css]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[html, yaml, yml, json]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "stylelint.validate": [
+    "css",
+    "scss"
+  ],
+  "editor.formatOnSave": true,
+  "workbench.colorCustomizations": {
+    "titleBar.activeBackground": "#aaaaaa",
+    "titleBar.activeForeground": "#ffffff",
+  },
+}
