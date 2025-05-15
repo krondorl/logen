@@ -26,31 +26,24 @@ Features may change or be incomplete. Use at your own discretion.
 
 ## Test setup
 
-- Node.js v24.0
-- Windows 11
-- Windows Terminal
+- 🟢 Node.js v24.0
+- ⚙️ Windows 11
+- 💻 Windows Terminal
 
-## Docker
+## Run from Docker
 
-To run it from Docker use this command:
+Install [Docker Desktop](https://www.docker.com/products/docker-desktop/) or [Rancher Desktop](https://rancherdesktop.io/).
 
-```
-docker compose up -d
-```
+1. Use this command: `docker compose up`
+1. Open browser at: `http://localhost:3050/`
 
-## Installation
+## Run from Node.js
 
 You need [Node.js 24](https://nodejs.org/en/download) or newer installed on your computer.
 
-```
-npm run install-all
-```
-
-## Usage
-
-```
-npm start
-```
+1. Run: `npm run install-all`
+1. Execute: `npm start`
+1. Open browser at: `http://localhost:5173/`
 
 ## Shared Types
 
