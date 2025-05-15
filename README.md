@@ -4,6 +4,7 @@ This full-stack app is a lottery generator using:
 
 - 🟦 TypeScript
 - ⚛️ React
+- ⚡ Vite
 - 🎨 Pico CSS
 - 🟢 Node.js
 - 🔗 WebSocket
