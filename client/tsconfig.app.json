@@ -22,12 +22,6 @@
     "erasableSyntaxOnly": true,
     "noFallthroughCasesInSwitch": true,
     "noUncheckedSideEffectImports": true,
-    "paths": {
-      "@shared/*": ["../shared"]
-    }
   },
   "include": ["src"],
-  "references": [
-    { "path": "../shared/tsconfig.json" } // Optional, but recommended for better build integration
-  ]
 }
