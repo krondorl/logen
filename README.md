@@ -25,6 +25,10 @@ Features may change or be incomplete. Use at your own discretion.
 - 🎲 Generate button can generate 5 sets of drawn numbers
 - ⏱️ Debounce time for Generate button
 
+## Screenshot
+
+![Logen app screen](docs/logen-screenshot.png 'Logen app screen')
+
 ## Test setup
 
 - 🟢 Node.js v24.0
@@ -77,6 +81,13 @@ The server generates data for each request. The data is similar to this object:
 ## License
 
 Read the [LICENSE file](LICENSE).
+
+## Links
+
+- [Wikipedia WebSocket](https://en.wikipedia.org/wiki/WebSocket)
+- [MDN Websocket](https://developer.mozilla.org/en-US/docs/Web/API/WebSocket)
+- [Node.js WebSocket client](https://nodejs.org/en/learn/getting-started/websocket)
+- [ws - WebSocket server](https://github.com/websockets/ws)
 
 ## History
 
